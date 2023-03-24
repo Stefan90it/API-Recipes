@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NencyKitchen.Services.Interfaces/1.0.0": {
+        "dependencies": {
+          "NencyKitchen.DataModel": "1.0.0"
+        },
+        "runtime": {
+          "NencyKitchen.Services.Interfaces.dll": {}
+        }
+      },
+      "NencyKitchen.DataModel/1.0.0": {
+        "runtime": {
+          "NencyKitchen.DataModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NencyKitchen.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NencyKitchen.DataModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

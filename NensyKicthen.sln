@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9435F07F-67DB-4212-88C2-2CE7518696F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NensyKicthen", "src\NensyKicthen\NensyKicthen.csproj", "{0AA21933-76DF-4364-8C74-6B760738954C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{A696A712-4233-4AFA-B993-2E4B0C694E67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{B13F8564-0D4B-46FA-A392-7C27102B87FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{005C68E7-C653-4589-9B63-37CD215133C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{55C5F0BB-ECF6-45F2-8856-AB82EAF2DD90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.BusinessLogic", "src\NencyKitchen.BusinessLogic\NencyKitchen.BusinessLogic.csproj", "{555E36AC-BE9C-4E31-A1F7-45F86D7DB636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.BusinessLogic.Interfaces", "src\NencyKitchen.BusinessLogic.Interfaces\NencyKitchen.BusinessLogic.Interfaces.csproj", "{18795636-07CC-474B-9264-7319237A341D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.BusinessModel", "src\NencyKitchen.BusinessModel\NencyKitchen.BusinessModel.csproj", "{206DC97F-55F3-4487-B4ED-29A279A9C5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.DataModel", "src\NencyKitchen.DataModel\NencyKitchen.DataModel.csproj", "{91736970-D436-4093-9BD3-21AAB4774C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.Mapper", "src\NencyKitchen.Mapper\NencyKitchen.Mapper.csproj", "{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.Services", "src\NencyKitchen.Services\NencyKitchen.Services.csproj", "{B78E5895-AA94-4F1E-BFB1-55991A000A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NencyKitchen.Services.Interfaces", "src\NencyKitchen.Services.Interfaces\NencyKitchen.Services.Interfaces.csproj", "{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyKitchen.DependencyInjection", "src\NancyKitchen.DependencyInjection\NancyKitchen.DependencyInjection.csproj", "{5FDE82E8-D62F-45AB-B7AF-95D64272981A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA21933-76DF-4364-8C74-6B760738954C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA21933-76DF-4364-8C74-6B760738954C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA21933-76DF-4364-8C74-6B760738954C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA21933-76DF-4364-8C74-6B760738954C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{555E36AC-BE9C-4E31-A1F7-45F86D7DB636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{555E36AC-BE9C-4E31-A1F7-45F86D7DB636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{555E36AC-BE9C-4E31-A1F7-45F86D7DB636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{555E36AC-BE9C-4E31-A1F7-45F86D7DB636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18795636-07CC-474B-9264-7319237A341D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18795636-07CC-474B-9264-7319237A341D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18795636-07CC-474B-9264-7319237A341D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18795636-07CC-474B-9264-7319237A341D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206DC97F-55F3-4487-B4ED-29A279A9C5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206DC97F-55F3-4487-B4ED-29A279A9C5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206DC97F-55F3-4487-B4ED-29A279A9C5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206DC97F-55F3-4487-B4ED-29A279A9C5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91736970-D436-4093-9BD3-21AAB4774C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91736970-D436-4093-9BD3-21AAB4774C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91736970-D436-4093-9BD3-21AAB4774C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91736970-D436-4093-9BD3-21AAB4774C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78E5895-AA94-4F1E-BFB1-55991A000A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78E5895-AA94-4F1E-BFB1-55991A000A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78E5895-AA94-4F1E-BFB1-55991A000A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78E5895-AA94-4F1E-BFB1-55991A000A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDE82E8-D62F-45AB-B7AF-95D64272981A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDE82E8-D62F-45AB-B7AF-95D64272981A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDE82E8-D62F-45AB-B7AF-95D64272981A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDE82E8-D62F-45AB-B7AF-95D64272981A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AA21933-76DF-4364-8C74-6B760738954C} = {A696A712-4233-4AFA-B993-2E4B0C694E67}
+		{A696A712-4233-4AFA-B993-2E4B0C694E67} = {9435F07F-67DB-4212-88C2-2CE7518696F6}
+		{B13F8564-0D4B-46FA-A392-7C27102B87FD} = {9435F07F-67DB-4212-88C2-2CE7518696F6}
+		{005C68E7-C653-4589-9B63-37CD215133C3} = {9435F07F-67DB-4212-88C2-2CE7518696F6}
+		{55C5F0BB-ECF6-45F2-8856-AB82EAF2DD90} = {9435F07F-67DB-4212-88C2-2CE7518696F6}
+		{555E36AC-BE9C-4E31-A1F7-45F86D7DB636} = {B13F8564-0D4B-46FA-A392-7C27102B87FD}
+		{18795636-07CC-474B-9264-7319237A341D} = {B13F8564-0D4B-46FA-A392-7C27102B87FD}
+		{206DC97F-55F3-4487-B4ED-29A279A9C5E0} = {005C68E7-C653-4589-9B63-37CD215133C3}
+		{91736970-D436-4093-9BD3-21AAB4774C07} = {005C68E7-C653-4589-9B63-37CD215133C3}
+		{DA5CBDC5-19EE-46B9-BA83-D1B8FCAAF092} = {005C68E7-C653-4589-9B63-37CD215133C3}
+		{B78E5895-AA94-4F1E-BFB1-55991A000A65} = {55C5F0BB-ECF6-45F2-8856-AB82EAF2DD90}
+		{6C7D1F6B-10F0-483F-AEF1-602BB5A0752D} = {55C5F0BB-ECF6-45F2-8856-AB82EAF2DD90}
+		{5FDE82E8-D62F-45AB-B7AF-95D64272981A} = {9435F07F-67DB-4212-88C2-2CE7518696F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53B250D9-6F43-4EAD-9B48-F671533220A9}
+	EndGlobalSection
+EndGlobal

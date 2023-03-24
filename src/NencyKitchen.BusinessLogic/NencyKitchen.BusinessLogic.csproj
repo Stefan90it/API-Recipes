@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NencyKitchen.BusinessLogic.Interfaces\NencyKitchen.BusinessLogic.Interfaces.csproj" />
+    <ProjectReference Include="..\NencyKitchen.Mapper\NencyKitchen.Mapper.csproj" />
+    <ProjectReference Include="..\NencyKitchen.Services.Interfaces\NencyKitchen.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
