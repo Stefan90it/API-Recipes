@@ -1,7 +1,6 @@
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\appsettings.json
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\NensyKicthen.exe
-C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\Porez.pdf
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\NensyKicthen.deps.json
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\NensyKicthen.runtimeconfig.json
 C:\Users\Lenovo\source\repos\NensyKicthen\src\NensyKicthen\bin\Debug\net6.0\NensyKicthen.dll
